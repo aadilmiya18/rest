@@ -1,11 +1,9 @@
 <template>
-  
+  <SignUp />
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import SignUp from '../src/components/SignUp.vue'
 </script>
 
 <style>
