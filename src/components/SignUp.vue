@@ -32,24 +32,11 @@
 <script setup>
 import { ref } from "vue";
 import axios from "axios";
+import router from "@/router";
 
 const name = ref("");
 const email = ref("");
 const password = ref("");
-
-// const signUp = async () => {
-//   let result = await axios.post("http://localhost:3000/users", {
-//     name: name.value,
-//     email: email.value,
-//     password: password.value,
-    
-//   });
-//   console.warn(result);
-//   if (result.status == 201) {
-//     alert("Sign up successfully");
-//     localStorage.setItem("user-info",JSON.stringify(result.data))
-//   }
-// };
 
 const signUp = async() => {
   let result = await axios.post("http://localhost:3000/users",{
@@ -59,8 +46,10 @@ const signUp = async() => {
   })
   console.warn(result)
   if(result.status == 201){
-    alert("signup success")
+    
     localStorage.setItem("user-info",JSON.stringify(result.data))
+    router.push({name:'Home'})
+
   }
 }
 </script>
