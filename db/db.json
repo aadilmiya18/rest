@@ -1,111 +1,54 @@
 {
   "users": [
     {
-      "id": "6218"
+      "id": "9c33",
+      "name": "Aadil Miya",
+      "email": "miyaadil99@gmail.com",
+      "password": "qwerty"
+    }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Burger King",
+      "contact": 1111,
+      "address": "Grk"
     },
     {
-      "id": "4361",
-      "username": "aadil"
+      "id": 2,
+      "name": "Dominos",
+      "contact": 2222,
+      "address": "KTM"
     },
     {
-      "id": "e6bf",
-      "email": "miyaaadil99@gmail.com",
-      "password": "kjdlkjdfl",
-      "name": "aadil miya"
+      "id": 3,
+      "name": "KFC",
+      "contact": 333,
+      "address": "PKR"
     },
     {
-      "id": "1b2b",
-      "name": "muhammad aadil",
-      "email": "md",
-      "password": "fdd"
+      "id": 3,
+      "name": "Rcb",
+      "address": "dklf",
+      "contact": 24
     },
     {
-      "id": "bc4a",
-      "username": "aadil"
+      "id": 4,
+      "name": "Rcb",
+      "address": "dklf",
+      "contact": 24
     },
     {
-      "id": "6138",
-      "name": "sign",
-      "email": "up",
-      "password": "fomr"
+      "id": "f2b6",
+      "name": "aad",
+      "address": "d",
+      "contact": "c"
     },
     {
-      "id": "6e80",
-      "name": "sign",
-      "email": "up",
-      "password": "fomr"
-    },
-    {
-      "id": "7605",
-      "name": "sign",
-      "email": "up",
-      "password": "fomr"
-    },
-    {
-      "id": "3d4c",
-      "name": "sign",
-      "email": "up",
-      "password": "fomr"
-    },
-    {
-      "id": "5dd4",
-      "name": "sign",
-      "email": "up",
-      "password": "fomr"
-    },
-    {
-      "id": "5e57",
-      "name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "d190",
-      "name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "6ea7",
-      "name": "newroute",
-      "email": "routey",
-      "password": "routes"
-    },
-    {
-      "id": "05a4",
-      "name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "a8cb",
-      "name": "neww route",
-      "email": "routey@test.com",
-      "password": "routing"
-    },
-    {
-      "id": "f7f7",
-      "name": "aadil",
-      "email": "husen",
-      "password": "miya"
-    },
-    {
-      "id": "6918",
-      "name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "999a",
-      "name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "a0d9",
-      "name": "",
-      "email": "",
-      "password": ""
+      "id": "4e6b",
+      "name": "yoyo",
+      "address": "honey",
+      "contact": "singer"
     }
   ]
 }

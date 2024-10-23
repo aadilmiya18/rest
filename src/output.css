@@ -554,6 +554,10 @@ video {
   display: none;
 }
 
+.float-left {
+  float: left;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -564,41 +568,28 @@ video {
   margin-bottom: 30px;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .mb-7 {
   margin-bottom: 1.75rem;
 }
 
-.ml-\[320px\] {
-  margin-left: 320px;
-}
-
-.ml-\[300px\] {
-  margin-left: 300px;
-}
-
-.ml-\[270px\] {
-  margin-left: 270px;
+.mr-\[5px\] {
+  margin-right: 5px;
 }
 
 .ml-\[250px\] {
   margin-left: 250px;
 }
 
-.mb-\[\] {
-  margin-bottom: ;
-}
-
-.mb-\[30px\] {
-  margin-bottom: 30px;
+.ml-\[350px\] {
+  margin-left: 350px;
 }
 
 .block {
   display: block;
+}
+
+.table {
+  display: table;
 }
 
 .h-10 {
@@ -621,13 +612,16 @@ video {
   cursor: pointer;
 }
 
-.rounded {
-  border-radius: 0.25rem;
+.overflow-hidden {
+  overflow: hidden;
 }
 
-.rounded-s {
-  border-start-start-radius: 0.25rem;
-  border-end-start-radius: 0.25rem;
+.text-clip {
+  text-overflow: clip;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .border {
@@ -639,9 +633,29 @@ video {
   border-color: rgb(56 189 248 / var(--tw-border-opacity));
 }
 
+.bg-\[\#333\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 51 51 / var(--tw-bg-opacity));
+}
+
 .bg-sky-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(2 132 199 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.px-\[14px\] {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.py-\[16px\] {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .pl-5 {
@@ -652,26 +666,34 @@ video {
   text-align: center;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.font-\[17px\] {
+  font-weight: 17px;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.hover\:bg-\[\#ddd\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 221 221 / var(--tw-bg-opacity));
 }
